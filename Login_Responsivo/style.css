@@ -1,0 +1,105 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+:root {
+    --color-1: #417CF2;
+    --color-2: #77A0F2;
+    --color-3: #A7C0F2;
+    --color-4: #AFC8FF;
+    --color-5: #0D0D0D;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    background-color: lightgray;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#login {
+    background-color: white;
+    width: 50vw;
+    height: 90vh;
+    border-radius: 15px;
+}
+
+section>div {
+    width: 100%;
+}
+
+#img {
+    background-image: url('./imgs/Privacypolicy-rafiki.svg');
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 40%;
+}
+
+#form {
+    height: 60%;
+    background-color: var(--color-3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0 0 15px 15px;
+}
+
+#form h1 {
+    font-size: 2em;
+    padding: 5px;
+    color: var(--color-5);
+}
+
+form>div {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin: 10px;
+}
+
+#remember-forgot-box {
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 0.8em;
+}
+
+#remember-forgot-box a {
+    color: var(--color-1);
+    text-shadow: 1px 1px 1px var(--color-2);
+}
+
+#botao-login {
+    font-size: 1em;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--color-1);
+    border: none;
+}
+
+#botao p {
+    font-size: 0.8em;
+    margin: auto;
+}
+
+#botao a {
+    color: var(--color-1);
+    text-shadow: 1px 1px 1px var(--color-2);
+}
+
+#email-id,
+#password-id {
+    border-radius: 5px;
+    border: 1px solid var(--color-1);
+    height: 2em;
+}
