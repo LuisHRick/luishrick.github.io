@@ -30,6 +30,7 @@ main {
     width: 50vw;
     height: 90vh;
     border-radius: 15px;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.2);
 }
 
 section>div {
