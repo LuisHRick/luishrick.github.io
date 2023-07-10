@@ -117,4 +117,9 @@ form>div>label {
 
 #botao input {
     color: white;
+    cursor: pointer;
+}
+
+#botao input:hover {
+    background-color: #3161c1;
 }
