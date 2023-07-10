@@ -105,6 +105,7 @@ form>div>label {
 
 #botao a {
     color: var(--color-5);
+    text-shadow: none;
 }
 
 #email-id,
