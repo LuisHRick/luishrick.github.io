@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --font-titulo: 'Montserrat', sans-serif;
+    --font-normal: 'Open Sans', sans-serif;
+
+    --primary-color: #0A1128;
+    --secundary-color: #787838;
+    --terciary-color: #855325;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: var(--font-normal);
+    font-size: 1.6rem;
+}
+
+.main-bg {
+    background-image: url(../imgs/confetti-doodles.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+}
+
+.main-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.content-section {
+    min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-titulo);
+
+}
+
+h1 {
+    font-size: 8rem;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 6.5rem;
+}
+
+h3 {
+    font-size: 5rem;
+}
+
+h4 {
+    font-size: 4rem;
+}
+
+h5 {
+    font-size: 3rem;
+}
+
+h6 {
+    font-size: 2rem;
+}
