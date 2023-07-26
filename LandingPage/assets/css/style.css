@@ -6,6 +6,7 @@
 :root {
     --font-titulo: 'Montserrat', sans-serif;
     --font-normal: 'Open Sans', sans-serif;
+    --gap: 3rem;
 
     --primary-color: #0A1128;
     --secundary-color: #787838;
@@ -70,8 +71,9 @@ h6 {
 }
 
 .main-content {
-    max-width: 1200px;
+    max-width: 120rem;
     margin: 0 auto;
+    padding: var(--gap);
 }
 
 .content-section {
@@ -85,7 +87,7 @@ h6 {
     left: 0;
     right: 0;
     width: 100vw;
-    border-bottom: 1px solid var(--white-grey-color);
+    border-bottom: 0.01rem solid var(--white-grey-color);
 }
 
 .menu-content {
