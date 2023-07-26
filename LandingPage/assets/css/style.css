@@ -25,6 +25,7 @@ html {
 body {
     font-family: var(--font-normal);
     font-size: 1.6rem;
+    line-height: 1.5;
 }
 
 h1,
@@ -63,10 +64,10 @@ h6 {
 }
 
 .main-bg {
-    background-image: url(../imgs/confetti-doodles.svg);
+    background-image: url(../imgs/confetti-doodles\(1\).svg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: center right;
     color: white;
 }
 
@@ -133,4 +134,42 @@ h6 {
 
 .menu h1 a {
     color: var(--primary-color);
+}
+
+.white-bg {
+    background-color: white;
+}
+
+.menu-spacing {
+    height: 6.5rem;
+}
+
+.intro-content {
+    position: relative;
+    top: -8rem;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    align-items: stretch;
+    gap: var(--gap);
+    height: 100vh;
+}
+
+.intro-text-content,
+.intro-img {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.intro-text-content h2 {
+    font-size: 8rem;
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+    line-height: 1;
+    text-shadow: 0 0 15px var(--primary-color);
+}
+
+.intro-img img {
+    max-width: 100%;
+    height: auto;
 }
