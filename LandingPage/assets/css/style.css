@@ -188,3 +188,53 @@ h6 {
     justify-content: center;
     text-align: center;
 }
+
+.top3-content p {
+    font-size: 2rem;
+}
+
+.grid-one-content {
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.grid-main-heading {
+    text-shadow: 0px 0px 15px black;
+    margin-bottom: 1rem;
+}
+
+p.grid-description {
+    padding-bottom: 6rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--gap);
+    counter-reset: grid-counter;
+}
+
+.grid h3 {
+    font-size: 3rem;
+    position: relative;
+    padding-left: 5rem;
+    padding-bottom: 2rem;
+    text-shadow: 0px 0px 5px black;
+}
+
+.grid h3::before {
+    counter-increment: grid-counter;
+    content: counter(grid-counter);
+    position: absolute;
+    font-size: 6rem;
+    font-style: italic;
+    top: -3rem;
+    left: -1rem;
+    transform: rotate(5deg);
+}
+
+.grid article p {
+    font-size: 2rem;
+}
