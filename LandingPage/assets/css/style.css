@@ -82,7 +82,7 @@ h6 {
 .main-content {
     max-width: 120rem;
     margin: 0 auto;
-    padding: var(--gap);
+    padding: 8rem var(--gap);
 }
 
 .content-section {
@@ -161,7 +161,7 @@ h6 {
     grid-template-columns: 1fr 1.5fr;
     align-items: stretch;
     gap: var(--gap);
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .intro-text-content,
@@ -184,7 +184,8 @@ h6 {
     max-width: 64rem;
     height: 100vh;
     display: flex;
-    flex-flow: column wrap;
+    flex-direction: column;
+    flex-wrap: nowrap;
     justify-content: center;
     text-align: center;
 }
@@ -194,7 +195,7 @@ h6 {
 }
 
 .grid-one-content {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
