@@ -254,3 +254,34 @@ p.grid-description {
 .gallery-img img:hover {
     transform: translate(-3%, 3%) scale(1.2);
 }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table caption {
+    font-style: italic;
+    font-size: 1.6rem;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+table td,
+table th {
+    white-space: nowrap;
+    padding: 0.5rem;
+    text-align: left;
+    border: .1rem solid var(--white-grey-color);
+}
+
+tfoot td,
+tfoot th {
+    background: var(--white-grey-color);
+}
+
+.responsive-table {
+    overflow: hidden;
+    overflow-x: auto;
+    min-width: 36rem;
+}
