@@ -352,3 +352,14 @@ body .full-width {
     font-size: 1.6rem;
     margin-bottom: 3rem;
 }
+
+#footer {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    color: var(--primary-color);
+}
+
+#footer a {
+    color: var(--terciary-color);
+}
