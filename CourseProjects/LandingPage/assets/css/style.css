@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 :root {
@@ -312,6 +311,15 @@ tfoot th {
     background: var(--white-grey-color);
     padding: 1.5rem 2rem;
     width: 100%;
+    font-size: 3rem;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline-color: var(--terciary-color);
+    outline-style: outset;
 }
 
 body .full-width {
@@ -333,4 +341,14 @@ body .full-width {
     border: 0.5rem solid var(--primary-color);
     background: var(--white-grey-color);
     color: var(--primary-color);
+}
+
+.form-group ::placeholder {
+    color: var(--terciary-color);
+}
+
+.form-grid legend {
+    font-style: italic;
+    font-size: 1.6rem;
+    margin-bottom: 3rem;
 }
