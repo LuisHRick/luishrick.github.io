@@ -363,3 +363,21 @@ body .full-width {
 #footer a {
     color: var(--terciary-color);
 }
+
+@media (max-width: 800px) {
+
+    .intro-content,
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .gallery-img {
+        max-width: 100%;
+        max-height: auto;
+    }
+
+    .gallery-img img {
+        width: 100%;
+    }
+
+}
