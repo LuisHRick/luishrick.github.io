@@ -181,7 +181,7 @@ h6 {
 
 .top3-content {
     max-width: 64rem;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
