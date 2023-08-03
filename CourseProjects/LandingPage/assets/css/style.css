@@ -364,6 +364,26 @@ body .full-width {
     color: var(--terciary-color);
 }
 
+.close-menu {
+    display: none;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background: var(--white-grey-color);
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: var(--primary-color);
+    transform: rotate(270deg);
+    border: 0.2rem solid var(--primary-color);
+}
+
 @media (max-width: 800px) {
 
     .intro-content,
@@ -421,5 +441,17 @@ body .full-width {
         padding: 0.5rem;
         cursor: pointer;
         border-radius: 0.5rem;
+    }
+
+    .close-menu:checked~.menu {
+        display: block;
+    }
+
+    .close-menu:checked~.close-menu-label::after {
+        content: '×';
+    }
+
+    .menu-spacing {
+        display: none;
     }
 }
