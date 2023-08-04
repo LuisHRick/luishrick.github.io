@@ -32,6 +32,7 @@ body {
     font-size: 1.6rem;
     line-height: 1.5;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 h1,
@@ -387,6 +388,11 @@ body .full-width {
 
 @media (max-width: 800px) {
 
+    h2 {
+        font-size: 6rem;
+        align-self: center;
+    }
+
     .intro-content,
     .grid {
         grid-template-columns: 1fr;
@@ -454,5 +460,10 @@ body .full-width {
 
     .menu-spacing {
         display: none;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        min-width: 300px;
     }
 }
