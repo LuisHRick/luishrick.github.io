@@ -32,7 +32,6 @@ body {
     font-size: 1.6rem;
     line-height: 1.5;
     box-sizing: border-box;
-    overflow-x: hidden;
 }
 
 h1,
@@ -98,7 +97,7 @@ h6 {
     top: 0;
     left: 0;
     right: 0;
-    width: 100vw;
+    min-width: 100vw;
     border-bottom: 0.01rem solid var(--white-grey-color);
 }
 
@@ -388,6 +387,12 @@ body .full-width {
 }
 
 @media (max-width: 800px) {
+
+    html,
+    body {
+        position: relative;
+        overflow-x: hidden;
+    }
 
     h2 {
         font-size: 6rem;
