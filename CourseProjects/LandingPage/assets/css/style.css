@@ -282,6 +282,7 @@ tfoot th {
 }
 
 .responsive-table {
+    align-items: center;
     overflow: hidden;
     overflow-x: auto;
     min-width: 36rem;
